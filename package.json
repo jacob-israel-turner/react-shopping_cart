@@ -1,0 +1,32 @@
+{
+  "name": "react-shopping_cart",
+  "version": "0.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d .",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacob-israel-turner/react-shopping_cart"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacob-israel-turner/react-shopping_cart/issues"
+  },
+  "homepage": "https://github.com/jacob-israel-turner/react-shopping_cart",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "react": "^0.12.2",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "envify": "^3.2.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "watchify": "^2.2.1"
+  }
+}
